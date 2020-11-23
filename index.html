@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body id="body">
+  
+    
+<h1 style="color: red; font-size: 4em;"></h1>
+
+
+  <section>
+    <h2>How many rounds you think you can guess the number?</h2>
+    <div id="rounds" >
+    <div id="flexRrounds1">
+
+    <div><input type="radio" name="auswahl" id="vier" onclick="keinDisplay()">
+    <label for="four">4</label></div>
+    <div><input type="radio" name="auswahl" id="fünf" onclick="keinDisplay()">
+    <label for="five">5</label></div>
+
+   </div>
+
+
+    <div id="flexRrounds">
+
+   <div> <input type="radio" name="auswahl" id="six"onclick="keinDisplay()">
+    <label for="six">6</label></div>
+    <div><input type="radio" name="auswahl" id="custom" onclick="RoundCustom()">
+    <label for="custom">custom</label></div>
+    
+    
+
+    </div>
+    </div>
+    <div id="display"><div id="customInput"></div></div><br>
+  </section>
+  <article>
+   <input type="number" name="" id="user-guess"> <br> 
+
+   <button id="buttom" onclick="guess()">guess</button><br>
+  </article>
+
+  <div  id="ergebnis"></div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

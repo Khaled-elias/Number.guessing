@@ -1,0 +1,60 @@
+button{
+    background: black;
+     color:white ;
+     border: 1px solid white;
+     font-size: 2.5em;
+     padding: 10px;
+     margin: 2em;
+     width: 5em;
+}
+body{
+    background: #000;
+    color: white;
+    text-align: center;
+}
+
+section{
+    width: 30%;
+    border: 2px solid white;
+    margin-left:35% ;
+    margin-top: 2em;
+}
+h2{
+    width: 50%;
+    padding-left: 6em;
+}
+
+
+#flexRrounds1, #flexRrounds{
+    font-size: 2em;
+    display: flex;
+    justify-content: space-evenly;
+}
+section div{
+    margin-top: 1em;
+}
+
+#custom-Rounds{
+    width: 3em;
+   font-size: 2em;
+}
+#user-guess{
+    font-size: 4em;
+    margin-top: 1em;
+    width: 4em;
+}
+
+article{
+    margin-top: 3em;
+    width: 30%;
+    border: 2px solid white;
+    margin-left:35% ;
+}
+
+#ergebnis{
+    font-size: 20px;
+}
+a{
+    color: orange;
+   
+}
